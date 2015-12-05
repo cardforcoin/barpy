@@ -34,9 +34,9 @@ def maybe(func):
             return nothing
     return wrapper
 
-setup(name="barpy",
-      version="0.1.2",
-      url="http://github.com/kstep/barpy/",
+setup(name="cfc-barpy",
+      version="0.1.3",
+      url="http://github.com/cardforcoin/barpy/",
       description="Ruby barby barcodes generating library port to Python",
       long_description=maybe(open)("README.txt").read(),
       author="Konstantin Stepanov",
